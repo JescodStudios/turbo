@@ -778,6 +778,18 @@
 		<!-- Jquery Plugins, main Jquery -->
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+<!--Netlify refer to the /admin  -->
+        <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
     </body>
 </html>
