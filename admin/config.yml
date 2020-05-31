@@ -6,7 +6,6 @@ publish_mode: editorial_workflow
 # This line should *not* be indented
 media_folder: "assets/img/uploads" # Media files will be stored in the repo under assets/img/uploads
 # These lines should *not* be indented
-media_folder: "static/assets/img/uploads" # Media files will be stored in the repo under static/assets/img/uploads
 public_folder: "assets/img/uploads" # The src attribute for uploaded media will begin with assets/img/uploads
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
