@@ -24,3 +24,14 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 # use dot notation for nested fields
     sortableFields: ['commit_date', 'title', 'commit_author', 'language.en']
+# Invitation:
+{{ .https://www.jescodstudios.ga/ }}/some/path/#invite_token={{ .Token }}
+
+# Confirmation:
+{{ .https://www.jescodstudios.ga/ }}/some/path/#confirmation_token={{ .Token }}
+
+# Password recovery:
+{{ .https://www.jescodstudios.ga/ }}/some/path/#recovery_token={{ .Token }}
+
+# Email change:
+{{ .https://www.jescodstudios.ga/ }}/some/path/#email_change_token={{ .Token }}
