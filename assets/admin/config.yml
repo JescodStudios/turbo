@@ -1,0 +1,14 @@
+backend:
+  name: git-gateway
+  branch: master
+  identity_url: "https://jescodstudios.ga/.netlify/identity"
+  gateway_url: "https://jescodstudios.ga/.netlify/git"
+  squash_merges: true
+
+publish_mode: editorial_workflow
+media_folder: "assets/img/uploads"
+
+site_url: https://jescodstudios.ga
+logo_url: https://jescodstudios.ga/assets/img/logo/logo.png
+
+collections:
